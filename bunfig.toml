@@ -1,0 +1,12 @@
+# Development server settings
+[serve]
+root = "src"           # Directory Bun serves by default
+port = 3003            # Port for dev server
+hot = true             # Enable hot reload
+
+[serve.static]
+dir = "src"            # Where static files are served from
+env = "BUN_PUBLIC_*"   # Expose only safe-to-share env vars to client
+
+[test]
+preload = ["./happydom.ts", "./testing-library.ts"]

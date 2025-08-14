@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg preserveAspectRatio="xMidYMid slice" viewBox="0 0 500 800" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="a" y2="100%">
+<stop stop-color="#1e293b" offset="0"/>
+<stop stop-color="#0f172a" offset="1"/>
+</linearGradient>
+</defs>
+<rect width="500" height="800" fill="url(#a)"/>
+<path d="m0 600q125-100 250 0t250 0v200h-500z" fill="#94a3b833"/>
+<circle cx="420" cy="120" r="45" fill="#cbd5e133"/>
+<circle cx="90" cy="240" r="30" fill="#cbd5e122"/>
+</svg>
